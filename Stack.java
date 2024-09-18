@@ -21,7 +21,7 @@ class Stack{
         if(top==-1){
             System.out.println("Stack is empty.Mo items to display");}
         else{
-            System.out.println("Itemsin the stack are");
+            System.out.println("Items in the stack are");
             for(int i=top;i>=0;i--){
 System.out.println(stk[i]);}}}}
 
