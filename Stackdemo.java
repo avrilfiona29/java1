@@ -1,7 +1,7 @@
 import java.util.Scanner;
 class Stack{
     int top;
-    int stk[]=new int[10];
+    int stk[]=new int[3];
     Stack(){
             top=-1;}
     void push(int item){
@@ -26,7 +26,7 @@ class Stack{
 System.out.println(stk[i]);}}}}
 
 
-public class Stack{
+public class Stackdemo{
     public static void main(String[] args){
         int ch;
         Stack stack1=new Stack();
