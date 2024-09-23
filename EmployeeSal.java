@@ -3,7 +3,7 @@ class Employee
   private int id;
   private String name;
   private double salary;
-  public Employee(int id,String name.,double salary)
+  public Employee(int id,String name,double salary)
   {
     this.id=id;
     this.name=name;
@@ -22,6 +22,11 @@ class Employee
       System.out.println("Salary:"+salary);
     }
   }
+    public void getEmpDetails()
+    {
+      System.out.println(name + " " + id + " "+ salary);
+    }
+}
   public class EmployeeSal
   {
     public static void main(String[] args)
@@ -32,6 +37,7 @@ class Employee
       emp1.getEmpDetails();
     }
   }
+
 
     
       
