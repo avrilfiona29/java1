@@ -1,7 +1,7 @@
 class Employee
 {
   private int id;
-  provate String name;
+  private String name;
   private double salary;
   public Employee(int id,String name.,double salary)
   {
