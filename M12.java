@@ -3,6 +3,18 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
+class Tools1{
+	String s1="";
+	int len1=0;
+	public String reverse(String s1){
+                String s2="";
+		len1=s1.length();
+		for(int i=0;i<len1;i++){
+			s2=s2+s1.substring(len1-(i+1),len1-i);
+		}
+		return s2;
+	}
+}
 public class M12{
         public static void reverse2(String fname1, String fname2)throws IOException {
                 File f1=new File(fname1);
@@ -17,8 +29,8 @@ public class M12{
                         fw1.write(name_rev+"\n");
                         System.out.println(name_rev);
                 }
+                sc1.close();
                 fw1.close();        
-
         }
 
         public static void main(String[] args) throws IOException {
